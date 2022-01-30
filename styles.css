@@ -1,3 +1,3 @@
-* p[title="привет"] {
-	color: paleturquoise;
+* a[href^="http://"] {
+	color: greenyellow;
 }
