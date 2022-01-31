@@ -1,6 +1,6 @@
-h2:nth-of-type(even) {
-	color: blue;
-}
-p:nth-last-of-type(4) {
+h2:only-of-type {
 	color:green;
+}
+p:only-of-type {
+	color: red;
 }
