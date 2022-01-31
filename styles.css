@@ -1,9 +1,9 @@
 #parent {
-	width: 275px;
+	width: 250px;
 	border: 1px solid gold;
 }
 #child {
-	height: 50px;
+	height: 75px;
 	border: 1px dotted blue;
-	margin: 25px 50px;
+	margin: 100px 50px 25px;
 }
