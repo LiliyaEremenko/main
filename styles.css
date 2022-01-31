@@ -1,3 +1,9 @@
-li:not(:first-child, :last-child) {
-	color: violet;
+#parent {
+	width: 250px;
+	border: 1px solid gold;
+}
+#child {
+	height: 50px;
+	border: 1px dotted blue;
+	margin: 25px 75px 150px 10px;
 }
