@@ -1,9 +1,14 @@
 #parent {
-	width:400px;
+	width:450px;
 	border:1px dotted blue;
 }
-#child {
-	height: 300px;
-	border: 1px solid yellow;
-	margin: 50px;
+#ch1 {
+	height:300px;
+	border: 1px dotted green;
+	margin: 25px;
+}
+#ch2 {
+	height: 250px;
+	border: 1px solid red;
+	margin: 25px;
 }
