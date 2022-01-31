@@ -1,6 +1,13 @@
-#elem {
+#elem1 {
 	text-align: justify;
-	width: 200px;
+	width: 490px;
+	border: 1px solid green;
+	padding: 20px;
+}
+#elem2 {
+	text-align: justify;
+	width: 290px;
 	border: 1px solid red;
-	padding: 40px;
+	padding: 10px;
+	margin:25px 50px;
 }
