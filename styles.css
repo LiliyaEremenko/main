@@ -1,6 +1,6 @@
-h1:first-of-type {
-	color:blue;
+h2:nth-of-type(even) {
+	color: blue;
 }
-h1:last-of-type {
-	color: red;
+p:nth-last-of-type(4) {
+	color:green;
 }
