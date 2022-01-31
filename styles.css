@@ -1,3 +1,8 @@
-li:not(:first-child, :last-child) {
-	color: violet;
+#elem {
+	width: 200px;
+	border: 1px solid red;
+	text-align: justify;
+	padding: 30px;
+	padding-top: 50px;
+	padding-bottom: 90px
 }
