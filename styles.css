@@ -5,7 +5,7 @@
 #child {
 	height: 150px;
 	margin: 25px;
-	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-left: 75px;
+	margin-right: 75px;
 	border: 1px solid green;
 }
