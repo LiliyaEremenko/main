@@ -1,5 +1,7 @@
-body {
-	background-image: url("bg.png");
-	background-repeat: repeat-x;
-	height: 300px;
+#elem {
+	background: url("bg.png") right center/300px 400px no-repeat scroll padding-box;
+	border: 12px dashed lavender;
+	padding: 30px;
+	width: 500px;
+	height: 500px;
 }
