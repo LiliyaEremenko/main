@@ -1,3 +1,19 @@
-ol {
-	list-style-type: upper-alpha;
+#elem {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 30px;
+	background-color: #B2C248;
+	text-align: center;
+	font: 25px 'MS Comic Sans';
+	padding: 10px;
+	color: white;
+}
+#content {
+	width: 650px;
+	margin: 0px auto;
+	border: 1px solid #B2C248;
+	padding: 30px 20px;
+	box-sizing: border-box;
 }
