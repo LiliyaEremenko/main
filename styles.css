@@ -1,9 +1,10 @@
 .parent {
-	display: flex;
+	display: inline-flex;
 	padding: 20px;
 	border: 1px solid red;
 }
 .child {
+	margin: 20px;
 	width: 125px;
 	height: 60px;
 	border: 1px solid green;
