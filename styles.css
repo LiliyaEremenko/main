@@ -1,21 +1,27 @@
-.parent {
+#parent {
 	position: relative;
-	width: 600px;
-	height: 500px;
+	width: 200Px;
+	height: 420PX;
 	margin: 0 auto;
-	background-color: #4DEE99;
+	border: 1px solid black;
 }
-.ch1 {
+#ch1 {
 	top: 50px;
-	left: 50px;
+	background-color: red;
 }
-.ch2 {
-	bottom: 50px;
-	right: 50px;
+#ch2 {
+	top: 160px;
+	background-color: yellow;
 }
-.ch1, .ch2 {
+#ch3 {
+	top: 270px;
+	background-color: green;
+}
+#ch1, #ch2, #ch3 {
 	position: absolute;
 	width: 100px;
 	height: 100px;
-	background-color: white;
+	border-radius: 50%;
+	border: 1px solid black;
+	right: 50px;
 }
