@@ -1,6 +1,22 @@
-#elem {
-	display: inline-block;
+.parent {
 	border: 1px solid red;
+	width: 500px;
+}
+.ch1 {
 	width: 100px;
 	height: 100px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+.ch2 {
+	width: 200px;
+	height: 100px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+.ch3 {
+	width: 300px;
+	height: 100px;
+	border: 1px solid green;
+	margin: 10px auto;
 }
