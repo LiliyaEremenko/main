@@ -1,3 +1,20 @@
-ol {
-	list-style-type: upper-alpha;
+#elem1 {
+	top: 50px;
+	left: 50px;
+	border: 1px solid red;
+}
+#elem2 {
+	top: 120px;
+	left: 120px;
+	border: 1px solid blue;
+}
+#elem3 {
+	top: 190px;
+	left: 190px;
+	border: 1px solid green;
+}
+#elem1, #elem2, #elem3 {
+	position: absolute;
+	height: 50px;
+	width: 50px;
 }
