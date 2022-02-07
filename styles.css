@@ -1,3 +1,21 @@
-ol {
-	list-style-type: upper-alpha;
+#e1, #e2, #e3 {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+}
+#e1 {
+	top:50px;
+	left: 50px;
+	background-color: red;
+}
+#e2 {
+	top: 80px;
+	left: 80px;
+	background-color: blue;
+	z-index: 1;
+}
+#e3 {
+	top: 110px;
+	left: 110px;
+	background-color: green;
 }
