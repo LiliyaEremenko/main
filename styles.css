@@ -1,3 +1,19 @@
-ol {
-	list-style-type: upper-alpha;
+#par {
+	position: relative;
+	margin: 0 auto;
+	height: 450px;
+	width: 600px;
+	border: 1px solid green;
+}
+#ch1, #ch2 {
+	position: absolute;
+	border: 1px solid red;
+	height: 50px;
+	width: 50px;
+}
+#ch1 {
+	left: -80px;
+}
+#ch2 {
+	right: -80px;
 }
