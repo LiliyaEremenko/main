@@ -1,3 +1,18 @@
-ol {
-	list-style-type: upper-alpha;
+div {
+	border: 1px solid black;
+	margin: 10px 80px auto;
+	text-align: justify;
+}
+img#one {
+	float: left;
+	margin: 20px;
+}
+img#two {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+p {
+	margin: 20px;
 }
