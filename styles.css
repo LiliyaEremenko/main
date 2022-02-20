@@ -1,3 +1,12 @@
-ol {
-	list-style-type: upper-alpha;
+div {
+	width: 300px;
+	text-align: justify;
+}
+img#one {
+	float: left;
+	width: 150px;
+}
+img#two {
+	float: right;
+	width: 150px;
 }
