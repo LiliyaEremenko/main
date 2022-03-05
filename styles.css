@@ -1,3 +1,14 @@
-ol {
-	list-style-type: upper-alpha;
+.parent {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	border: 1px solid red;
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+}
+.child {
+	border: 1px solid green;
+	height: 60px;
+	width: 120px;
 }
