@@ -3,11 +3,11 @@
 	display: flex;
 	width: 900px;
 	height: 450px;
-	flex-direction: row;
-	justify-content: center;
+	flex-direction: column;
 	margin: 20px auto;
+	justify-content: center;
 }
 .child {
 	border: 1px solid green;
-	width: 120px;
+	height: 40px;
 }
