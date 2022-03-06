@@ -5,8 +5,8 @@
 	margin: 20px auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-end;
+	justify-content: center;
+	align-items: flex-start;
 }
 .child {
 	border: 1px solid green;
