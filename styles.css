@@ -5,7 +5,7 @@
 	height: 450px;
 	flex-direction: column;
 	margin: 20px auto;
-	justify-content: center;
+	justify-content: space-between;
 }
 .child {
 	border: 1px solid green;
