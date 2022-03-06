@@ -1,3 +1,18 @@
-ol {
-	list-style-type: upper-alpha;
-}
+.parent {
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 900px;
+	height: 450px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+  .child {
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+  }
+  .elem {
+	align-self: flex-end;
+  }
