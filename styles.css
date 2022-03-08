@@ -1,68 +1,27 @@
-body {
-	margin: 0;
-}
 #wrapper {
-	width: 900px;
 	margin: 0 auto;
+	width: 700px;
 }
-#menu {
-	background-color: #FC9D00;
-	display: flex;
-}
-#menu a {
-	padding: 15px 25px;
-	text-decoration: none;
-	color: white;
-	font: 15px Arial;
-	font-weight: bold;
-}
-#menu a:hover, #menu a.active {
-	background-color: white;
-	color: #FC9D00;
-}
-#footer {
-	display: flex;
-	justify-content: center;
-}
-#footer a {
-	font: bold 13px Arial;
-	text-decoration: none;
-	color: #9B6100;
-	margin: 20px 10px;
-}
-#footer a:hover {
-	color: black;
-	text-decoration: underline;
-}
-#container {
-	border-right: 1px solid #FC9D00;
-	border-left: 1px solid #FC9D00;
-	border-bottom: 1px solid #FC9D00;
-}
-#content h1, h2 {
+#wrapper h1 {
 	text-align: center;
-	color: #9B6100;
 	font-weight: normal;
 }
-#content h1 {
-	font: 30px 'Times New Roman';
+#wrapper div {
+	border: 1px solid black;
+	margin-bottom: 20px;
+	padding: 20px;
 }
-#content h2 {
-	font: 25px 'Times New Roman';
+#wrapper a {
+	color: blue;
+	text-decoration: none;
 }
-#content p {
-	text-align: justify;
-	color: #CC8000;
-	text-indent: 50px;
-	padding: 0 10px;
-	font: 17px/33px 'Times New Roman';
-}
-#content a {
-	color: #CC8000;
-	font-weight: bold;
+#wrapper a:hover {
 	text-decoration: underline;
 }
-#content a:hover {
-	color: black;
-	text-decoration: none;
+#wrapper p {
+	text-align: justify;
+}
+#wrapper p.more {
+	text-align: right;
+	margin-right: 20px;
 }
