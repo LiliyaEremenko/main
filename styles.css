@@ -1,39 +1,58 @@
-#wrapper {
-	width: 700px;
-	margin: 50px auto;
-	border: 1px solid black;
+* {
 	box-sizing: border-box;
+}
+body, p, h1, h2, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+.center {
+	width: 840px;
+	padding: 10px;
+	margin: 0 auto;
+}
+.wrapper {
+	margin-bottom: 30px;
+}
+#header {
+	background-color: #008040;
+	color: white;
+}
+.wrapper h2 {
+	text-align: center;
+	margin-bottom: 10px;
+	font: bold 27px Arial;
+}
+.wrapper li {
+	list-style-position: inside;
+}
+.wrapper p, .wrapper li {
+	margin-bottom: 10px;
+	font: 16px Arial;
 	text-align: justify;
 }
-#menu {
-	display: flex;
-	margin-bottom: 20px;
-	background-color: #484848;
-}
-#menu a {
-	padding: 10px 25px;
-	color: white;
-	text-decoration: none;
-	font: bold 14px Arial;
-}
-#menu a:hover, #menu a.active {
-	background-color: white;
-	color: #484848;
-}
-#content h1 {
+#header h1 {
+	font: bold 36px Arial;
+	margin-bottom: 7px;
 	text-align: center;
 }
-#content p {
-	padding: 0px 10px;
+#header p {
+	font-size: 21px;
+	text-align: center;
 	margin-bottom: 5px;
-	font: 17px/20px 'Times New Roman';
 }
-#content a {
-	text-decoration: none;
-	color: blue;
-	font-weight: bolder;
+#contacts {
+	background-color: #C60304;
+	color: white;
 }
-#content a:hover {
-	text-decoration: underline;
-	color: darkolivegreen;
+#contacts p {
+	text-align: center;
+}
+#footer {
+	background-color: #FF8040;
+	color: white;
+	padding-top: 100px;
+}
+#footer p {
+	font-size: 13px;
+	text-align: center;
 }
