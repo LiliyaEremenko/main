@@ -1,3 +1,39 @@
-ol {
-	list-style-type: upper-alpha;
+#wrapper {
+	width: 700px;
+	margin: 50px auto;
+	border: 1px solid black;
+	box-sizing: border-box;
+	text-align: justify;
+}
+#menu {
+	display: flex;
+	margin-bottom: 20px;
+	background-color: #484848;
+}
+#menu a {
+	padding: 10px 25px;
+	color: white;
+	text-decoration: none;
+	font: bold 14px Arial;
+}
+#menu a:hover, #menu a.active {
+	background-color: white;
+	color: #484848;
+}
+#content h1 {
+	text-align: center;
+}
+#content p {
+	padding: 0px 10px;
+	margin-bottom: 5px;
+	font: 17px/20px 'Times New Roman';
+}
+#content a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bolder;
+}
+#content a:hover {
+	text-decoration: underline;
+	color: darkolivegreen;
 }
