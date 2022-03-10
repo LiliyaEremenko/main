@@ -1,39 +1,85 @@
-#wrapper {
-	width: 700px;
-	margin: 50px auto;
-	border: 1px solid black;
+body {
+	background-color: #EBEBEB;
+	
+}
+* {
 	box-sizing: border-box;
+	font-family: Arial;
+}
+h3, h4, body, p {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 890px;
+	margin: 0 auto;
+	background-color: white;
+}
+header {
+	background-color: #F8AA03;
+	margin-bottom: 20px;
+}
+nav {
+	display: flex;
+}
+nav a {
+	text-decoration: none;
+	margin: 15px 20px;
+	margin-right: 0;
+	color: white;
+	font-size: 18px;
+}
+nav a:hover, a.active {
+	text-decoration: underline;
+}
+#container {
+	display: flex;
+}
+main {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 500px;
 	text-align: justify;
 }
-#menu {
-	display: flex;
-	margin-bottom: 20px;
-	background-color: #484848;
+aside {
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 330px;
+	text-align: justify;
 }
-#menu a {
-	padding: 10px 25px;
-	color: white;
-	text-decoration: none;
-	font: bold 14px Arial;
+main img {
+	width: 500px;
+	height: 350px;
+	margin-bottom: 10px;
 }
-#menu a:hover, #menu a.active {
-	background-color: white;
-	color: #484848;
-}
-#content h1 {
+main td, main th {
+	border: 1px solid black;
+	width: 170px;
 	text-align: center;
 }
-#content p {
-	padding: 0px 10px;
-	margin-bottom: 5px;
-	font: 17px/20px 'Times New Roman';
+main th {
+	background-color: #EBEBEB;
 }
-#content a {
-	text-decoration: none;
-	color: blue;
-	font-weight: bolder;
+footer {
+	background-color: #F8AA03;
+	padding: 30px;
 }
-#content a:hover {
-	text-decoration: underline;
-	color: darkolivegreen;
+footer p {
+	text-align: center;
+	color: white;
+}
+main h3, aside h4 {
+	margin-bottom: 10px;
+}
+main p, aside p {
+	margin-bottom: 10px;
+}
+aside h4 {
+	font-size: 17px;
+}
+main h3 {
+	font-size: 21px;
+}
+main table {
+	margin-bottom: 10px;
 }
